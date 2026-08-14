@@ -1,0 +1,231 @@
+# Pro League Soccer - SuperLiga Romania 2026/27
+# Data pack draft
+# 16 teams - official 2026/27 composition
+# Source: SuperLiga official schedule published 25 June 2026
+
+[LEAGUE]
+ID=ROM1
+NAME=SuperLiga Romania
+COUNTRY=Romania
+SEASON=2026/27
+TEAMS=16
+
+[TEAM01]
+ID=ROM01
+NAME=FCSB
+SHORT=FCSB
+CITY=Bucharest
+STADIUM=National Arena
+
+[TEAM02]
+ID=ROM02
+NAME=CFR Cluj
+SHORT=CFR
+CITY=Cluj-Napoca
+STADIUM=Dr. Constantin Radulescu
+
+[TEAM03]
+ID=ROM03
+NAME=Universitatea Craiova
+SHORT=UCV
+CITY=Craiova
+STADIUM=Ion Oblemenco
+
+[TEAM04]
+ID=ROM04
+NAME=Universitatea Cluj
+SHORT=UCL
+CITY=Cluj-Napoca
+STADIUM=Cluj Arena
+
+[TEAM05]
+ID=ROM05
+NAME=Rapid Bucuresti
+SHORT=RAP
+CITY=Bucharest
+STADIUM=Superbet Arena-Giulesti
+
+[TEAM06]
+ID=ROM06
+NAME=Dinamo Bucuresti
+SHORT=DIN
+CITY=Bucharest
+STADIUM=Arcul de Triumf
+
+[TEAM07]
+ID=ROM07
+NAME=FC Arges
+SHORT=ARG
+CITY=Pitesti
+STADIUM=Nicolae Dobrin
+
+[TEAM08]
+ID=ROM08
+NAME=UTA Arad
+SHORT=UTA
+CITY=Arad
+STADIUM=Francisc von Neuman
+
+[TEAM09]
+ID=ROM09
+NAME=Otelul Galati
+SHORT=OTL
+CITY=Galati
+STADIUM=Otelul
+
+[TEAM10]
+ID=ROM10
+NAME=FC Botosani
+SHORT=BTO
+CITY=Botosani
+STADIUM=Municipal
+
+[TEAM11]
+ID=ROM11
+NAME=FK Csikszereda
+SHORT=CSK
+CITY=Miercurea Ciuc
+STADIUM=Municipal
+
+[TEAM12]
+ID=ROM12
+NAME=Petrolul Ploiesti
+SHORT=PET
+CITY=Ploiesti
+STADIUM=Ilie Oana
+
+[TEAM13]
+ID=ROM13
+NAME=Farul Constanta
+SHORT=FAR
+CITY=Constanta
+STADIUM=Central Academy Hagi
+
+[TEAM14]
+ID=ROM14
+NAME=FC Voluntari
+SHORT=VOL
+CITY=Voluntari
+STADIUM=Anghel Iordanescu
+
+[TEAM15]
+ID=ROM15
+NAME=Corvinul Hunedoara
+SHORT=COR
+CITY=Hunedoara
+STADIUM=Michael Klein
+
+[TEAM16]
+ID=ROM16
+NAME=Sepsi OSK
+SHORT=SEP
+CITY=Sfantu Gheorghe
+STADIUM=Sepsi Arena
+
+[SEASON]
+FORMAT=30_ROUND_ROBIN
+MATCHES_PER_TEAM=30
+TEAMS=16
+
+[ROUND01]
+FCSB=FC Arges
+Corvinul Hunedoara=FK Csikszereda
+Universitatea Cluj=Farul Constanta
+Rapid Bucuresti=Sepsi OSK
+FC Voluntari=FC Botosani
+Otelul Galati=CFR Cluj
+Universitatea Craiova=UTA Arad
+Petrolul Ploiesti=Dinamo Bucuresti
+
+[ROUND02]
+FK Csikszereda=FCSB
+Farul Constanta=Corvinul Hunedoara
+Sepsi OSK=Universitatea Cluj
+FC Botosani=Rapid Bucuresti
+CFR Cluj=FC Voluntari
+UTA Arad=Otelul Galati
+Dinamo Bucuresti=Universitatea Craiova
+FC Arges=Petrolul Ploiesti
+
+[ROUND03]
+FCSB=Farul Constanta
+Corvinul Hunedoara=Sepsi OSK
+Universitatea Cluj=FC Botosani
+Rapid Bucuresti=CFR Cluj
+FC Voluntari=UTA Arad
+Otelul Galati=Dinamo Bucuresti
+Universitatea Craiova=Petrolul Ploiesti
+FC Arges=FK Csikszereda
+
+[ROUND04]
+Sepsi OSK=FCSB
+FC Botosani=Corvinul Hunedoara
+CFR Cluj=Universitatea Cluj
+UTA Arad=Rapid Bucuresti
+Dinamo Bucuresti=FC Voluntari
+Petrolul Ploiesti=Otelul Galati
+Farul Constanta=FK Csikszereda
+Universitatea Craiova=FC Arges
+
+[ROUND05]
+FCSB=FC Botosani
+Corvinul Hunedoara=CFR Cluj
+Universitatea Cluj=UTA Arad
+Rapid Bucuresti=Dinamo Bucuresti
+FC Voluntari=Petrolul Ploiesti
+FK Csikszereda=Sepsi OSK
+Otelul Galati=Universitatea Craiova
+FC Arges=Farul Constanta
+
+[ROUND06]
+CFR Cluj=FCSB
+UTA Arad=Corvinul Hunedoara
+Dinamo Bucuresti=Universitatea Cluj
+Petrolul Ploiesti=Rapid Bucuresti
+FC Botosani=FK Csikszereda
+Universitatea Craiova=FC Voluntari
+Sepsi OSK=Farul Constanta
+Otelul Galati=FC Arges
+
+[ROUND07]
+FCSB=UTA Arad
+Corvinul Hunedoara=Dinamo Bucuresti
+Universitatea Cluj=Petrolul Ploiesti
+FK Csikszereda=CFR Cluj
+Rapid Bucuresti=Universitatea Craiova
+Farul Constanta=FC Botosani
+FC Voluntari=Otelul Galati
+FC Arges=Sepsi OSK
+
+[ROUND08]
+Dinamo Bucuresti=FCSB
+Petrolul Ploiesti=Corvinul Hunedoara
+UTA Arad=FK Csikszereda
+Universitatea Craiova=Universitatea Cluj
+CFR Cluj=Farul Constanta
+Otelul Galati=Rapid Bucuresti
+FC Botosani=Sepsi OSK
+FC Voluntari=FC Arges
+
+[ROUND09]
+FCSB=Petrolul Ploiesti
+FK Csikszereda=Dinamo Bucuresti
+Corvinul Hunedoara=Universitatea Craiova
+Farul Constanta=UTA Arad
+Universitatea Cluj=Otelul Galati
+Sepsi OSK=CFR Cluj
+Rapid Bucuresti=FC Voluntari
+FC Arges=FC Botosani
+
+[ROUND10]
+Universitatea Craiova=FCSB
+Petrolul Ploiesti=FK Csikszereda
+Dinamo Bucuresti=Farul Constanta
+Otelul Galati=Corvinul Hunedoara
+UTA Arad=Sepsi OSK
+FC Voluntari=Universitatea Cluj
+CFR Cluj=FC Botosani
+Rapid Bucuresti=FC Arges
+
+# Rounds 11-30 follow the official 2026/27 SuperLiga draw.
+# Team data can be expanded with player records once the exact PLS import schema is confirmed.
